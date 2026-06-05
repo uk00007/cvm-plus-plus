@@ -1,0 +1,41 @@
+// ============================================================
+// CVM++ DEMO SCRIPT
+// Demonstrates: variables, arithmetic, conditionals, while loop
+// ============================================================
+
+// --- PART 1: CALCULATOR ---
+// Basic arithmetic on two integers
+
+let a = 20;
+let b = 7;
+
+print a + b;  
+print a - b;    
+print a * b;    
+
+// --- PART 2: TRUTH MACHINE ---
+// If the input is 1, print 1. Otherwise print 0.
+
+let input = 1;
+
+if (input == 1) {
+    print 1;
+} else {
+    print 0;
+}
+
+// --- PART 3: COUNTDOWN LOOP ---
+// While loop with conditional branching inside
+
+let countdown = 5;
+
+if (countdown > 0) {
+    print 999;
+} else {
+    print 0;
+}
+
+while (countdown > 0) {
+    print countdown;
+    let countdown = countdown - 1;
+}
